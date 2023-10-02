@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="salesforce-custom-testFlow" doc:id="a2c08ef6-957f-4de2-a3b6-a8c6c875272b" >
+		<logger level="INFO" doc:name="Logger" doc:id="96f9f2b4-424c-4836-8caf-d77557369c06" message='#["this is a test"]'/>
+	</flow>
+</mule>
